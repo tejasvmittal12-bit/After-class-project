@@ -1,0 +1,23 @@
+*{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3{
+    colour blue;
+}
+
+h4{
+    colour="palevioletred";
+}
+
+.mylclass{color: darkorange;
+}
+#myid{
+    color: mediumpurple;
+}
+
+h5,p{
+    color: maroon;
+
+}
