@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Automatic BackgroundColour Change </title>
+        <style>
+         html,body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            animation: color-change 10s infinite linear alternate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        @keyframes color-change {
+            0% { background-color:#ff0000  ;}
+            25% { background-color: #ffa500  ;}
+            50% { background-color: #ffff00  ;}
+            75% { background-color: #008000 ;}
+            100% { background-color: #0000ff ; }
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1>TheBackground Colour Changes Automaticly!</h1>
+    </body>
+    </html>
