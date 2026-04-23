@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <metra charset="UTF-8">
+            <title>My First Webpage</title>
+            <style>
+                body {
+font-family: arial, sans-serif;
+text-align: center;
+background-color: #f4f4f4;
+                }
+ h1 {
+color: #333;
+                }
+                button {
+                    padding: 10px 20px  ;
+                    font-size: 16px;
+                    cursor: pointer;
+                    background-color: #007bff;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                }
+
+            </style>
+    </head>
+    <body>
+        <h1 id="title">Hello World</h1>
+        <p>This is a basic website structure.</p>
+        <button id="colorBtn">Change Title Color</button>
+        <script>
+           const button = document.getElementById('colorBtn');
+              const title = document.getElementById('title');   
+              button.addEventListener('click' , () => {
+                title.style.color = title.style.color === 'red' ? '#333' : 'red';
+              });
+                </script>
+    </body>
+</html>
