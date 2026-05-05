@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>JS HTML Methods</title>
+
+    </head>
+    <body>
+        
+        <h1 id="main-title">Orignal Title</h1>
+        <div id="container"></div>
+        <button id="update-btn">Update Page</button>
+        <script>
+                const btn = document.getElementById("update-btn");
+                const title = document.getElementById("main-title");
+                const container = document.querySelector("#container");
+
+                btn.addEventListener("click", function() {
+                    title.innerHTML = "Title Updated via JavaScript!";
+                    title.style.color = "blue";
+                    const newParagraph = document.createElement("p");
+                    newParagraph.textContent = "This is a new paragraph added to the DOM.";
+                    container.appendChild(newParagraph);
+                console.log(" Update Completed!");  
+                });
+        </script>
+    </body>
+</html>
