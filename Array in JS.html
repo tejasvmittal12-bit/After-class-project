@@ -5,7 +5,8 @@
         <p id="demo"></p>
         <script>
             var cars=["Coding", "Magic", "Learn"];
-            document.getElementById("demo").innerHTML = cars[2];
+            cars.pop();
+            document.getElementById("demo").innerHTML = cars[0] + " " + cars[1];
 
         </script>
     </body>
