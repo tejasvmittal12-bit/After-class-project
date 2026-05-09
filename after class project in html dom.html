@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <h3>What is 4 * 5 * 20 - 4 * 5 + 20?</h3>
+    <h3>The answer is:</h3>
+</head>
+
+<body>
+    <p id="demo"></p>
+</body>
+
+<script>
+    var a = 4;
+    var b = 5;
+    var x = a * b;
+    document.getElementById("demo").innerHTML = a * b * x - a * b + x;
+</script>
+</body>
+<style>
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        animation: color-change 5s infinite linear alternate;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    @keyframes color-change {
+        0% {
+            background-color: #ff0000;
+        }
+
+        25% {
+            background-color: #ffa500;
+        }
+
+        50% {
+            background-color: #ffff00;
+        }
+
+        75% {
+            background-color: #008000;
+        }
+
+        100% {
+            background-color: #0000ff;
+        }
+    }
+</style>
+
+</html>
