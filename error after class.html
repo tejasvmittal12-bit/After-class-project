@@ -1,0 +1,18 @@
+<html>
+
+<body>
+
+    <p id="error_message"></p>
+
+    <script>
+        try {
+            error("Welcome guest!");
+
+        }
+        catch (err) {
+            document.getElementById("error_message").innerHTML = err.message;
+        }
+    </script>
+</body>
+
+</html>
