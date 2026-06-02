@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #252525;
+    font-family: Baloo Tamma 2.cursive;
+}
+
+.m heading {
+    font-family: "Roboto Slab, serif";
+}
+
+.text-white {
+    color: white;
+}
+
+.main container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://www.google.com/imgres?q=flower&imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D122183665670339575&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F600339640721632%2Fposts%2F2020097332079182%2F&docid=f0TyvmSKkuZ6lM&tbnid=sFL3aJfIFlzHrM&vet=12ahUKEwi0x52S8eiUAxU32TgGHUeaF8cQnPAOegQIEhAB..i&w=1440&h=1800&hcb=2&ved=2ahUKEwi0x52S8eiUAxU32TgGHUeaF8cQnPAOegQIEhAB');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_row h1 {
+    font-size: 5 rem;
+}
+
+.main_row img {
+    width: auto;
+    height: 100vh;
+}
